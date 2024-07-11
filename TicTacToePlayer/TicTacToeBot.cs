@@ -84,8 +84,7 @@ namespace TicTacToePlayer
         public TicTacToeBot(string name, bool landmindGame = false)
         {
             host = new();
-            host.BaseAddress = new("https://gamemanager20230712151202.azurewebsites.net/");
-            //host.BaseAddress = new("https://localhost:7046/");
+            host.BaseAddress = new("https://localhost:7046/");
             this.name = name;
             this.isLandmindGame = landmindGame;
         }
